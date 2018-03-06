@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var users = [{
+            "id": 1,
+            "first_name": "Farlie",
+            "last_name": "McKerlie",
+            "email": "fmckerlie0@irs.gov",
+            "gender": "Male",
+            "salary": "$4807.82",
+            "marks": [{
+                    "mark": 4,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                },
+                {
+                    "mark": 2,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 2,
+            "first_name": "Tome",
+            "last_name": "Tytler",
+            "email": "ttytler1@tuttocitta.it",
+            "gender": "Male",
+            "salary": "$2011.98",
+            "marks": [{
+                "mark": 6,
+                "lesson": 1
+            }]
+        }, {
+            "id": 3,
+            "first_name": "Opal",
+            "last_name": "Nares",
+            "email": "onares2@symantec.com",
+            "gender": "Female",
+            "salary": "$3660.52",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 4,
+            "first_name": "Ivonne",
+            "last_name": "Blueman",
+            "email": "iblueman3@wiley.com",
+            "gender": "Female",
+            "salary": "$3836.99"
+        }, {
+            "id": 5,
+            "first_name": "Hali",
+            "last_name": "Johns",
+            "email": "hjohns4@archive.org",
+            "gender": "Female",
+            "salary": "$386.00",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 6,
+            "first_name": "Trenton",
+            "last_name": "Koopman",
+            "email": "tkoopman5@biglobe.ne.jp",
+            "gender": "Male",
+            "salary": "$346.75"
+        }, {
+            "id": 7,
+            "first_name": "Heida",
+            "last_name": "Sandbach",
+            "email": "hsandbach6@wiley.com",
+            "gender": "Female",
+            "salary": "$3621.87",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 8,
+            "first_name": "Moina",
+            "last_name": "Circuit",
+            "email": "mcircuit7@delicious.com",
+            "gender": "Female",
+            "salary": "$820.02"
+        }, {
+            "id": 9,
+            "first_name": "Nevil",
+            "last_name": "Ciobutaru",
+            "email": "nciobutaru8@redcross.org",
+            "gender": "Male",
+            "salary": "$1486.83",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 10,
+            "first_name": "Brent",
+            "last_name": "Beedom",
+            "email": "bbeedom9@fc2.com",
+            "gender": "Male",
+            "salary": "$2329.63",
+            "marks": [{
+                "mark": 5,
+                "lesson": 1
+            }]
+        }, {
+            "id": 11,
+            "first_name": "Martynne",
+            "last_name": "Sandison",
+            "email": "msandisona@tripadvisor.com",
+            "gender": "Female",
+            "salary": "$1939.10",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 1,
+                    "lesson": 2
+                },
+                {
+                    "mark": 2,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 12,
+            "first_name": "Monro",
+            "last_name": "Moreinu",
+            "email": "mmoreinub@ustream.tv",
+            "gender": "Male",
+            "salary": "$1379.59",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                },
+                {
+                    "mark": 10,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                },
+                {
+                    "mark": 3,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 13,
+            "first_name": "Gustavo",
+            "last_name": "Bartolomeoni",
+            "email": "gbartolomeonic@clickbank.net",
+            "gender": "Male",
+            "salary": "$1793.70",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                },
+                {
+                    "mark": 10,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 14,
+            "first_name": "Esme",
+            "last_name": "Payley",
+            "email": "epayleyd@hatena.ne.jp",
+            "gender": "Male",
+            "salary": "$4651.53",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                },
+                {
+                    "mark": 4,
+                    "lesson": 3
+                },
+                {
+                    "mark": 6,
+                    "lesson": 4
+                },
+                {
+                    "mark": 2,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 15,
+            "first_name": "Son",
+            "last_name": "Archbutt",
+            "email": "sarchbutte@icq.com",
+            "gender": "Male",
+            "salary": "$4354.01",
+            "marks": [{
+                    "mark": 4,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 3,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                },
+                {
+                    "mark": 1,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 16,
+            "first_name": "Ximenes",
+            "last_name": "Gooble",
+            "email": "xgooblef@bloomberg.com",
+            "gender": "Male",
+            "salary": "$1146.45",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 17,
+            "first_name": "Nannie",
+            "last_name": "Gladwish",
+            "email": "ngladwishg@hud.gov",
+            "gender": "Female",
+            "salary": "$374.23",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 18,
+            "first_name": "Barrett",
+            "last_name": "Hannibal",
+            "email": "bhannibalh@free.fr",
+            "gender": "Male",
+            "salary": "$1916.94"
+        }, {
+            "id": 19,
+            "first_name": "Eve",
+            "last_name": "Roseveare",
+            "email": "erosevearei@scientificamerican.com",
+            "gender": "Female",
+            "salary": "$1101.01",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 6,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                },
+                {
+                    "mark": 3,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 20,
+            "first_name": "Grete",
+            "last_name": "Peterken",
+            "email": "gpeterkenj@php.net",
+            "gender": "Female",
+            "salary": "$1125.62",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 6,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 21,
+            "first_name": "Dianne",
+            "last_name": "Gonsalo",
+            "email": "dgonsalok@wp.com",
+            "gender": "Female",
+            "salary": "$3029.33",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                },
+                {
+                    "mark": 9,
+                    "lesson": 3
+                },
+                {
+                    "mark": 6,
+                    "lesson": 4
+                },
+                {
+                    "mark": 6,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 22,
+            "first_name": "Myrilla",
+            "last_name": "Hugett",
+            "email": "mhugettl@creativecommons.org",
+            "gender": "Female",
+            "salary": "$3709.67"
+        }, {
+            "id": 23,
+            "first_name": "Benjie",
+            "last_name": "Kenward",
+            "email": "bkenwardm@nyu.edu",
+            "gender": "Male",
+            "salary": "$4903.02",
+            "marks": [{
+                "mark": 6,
+                "lesson": 1
+            }]
+        }, {
+            "id": 24,
+            "first_name": "Glynnis",
+            "last_name": "Mattin",
+            "email": "gmattinn@un.org",
+            "gender": "Female",
+            "salary": "$2886.92",
+            "marks": [{
+                "mark": 9,
+                "lesson": 1
+            }]
+        }, {
+            "id": 25,
+            "first_name": "Sosanna",
+            "last_name": "Morcomb",
+            "email": "smorcombo@moonfruit.com",
+            "gender": "Female",
+            "salary": "$2487.38",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 26,
+            "first_name": "Janaya",
+            "last_name": "Kiley",
+            "email": "jkileyp@twitter.com",
+            "gender": "Female",
+            "salary": "$3417.65",
+            "marks": [{
+                "mark": 6,
+                "lesson": 1
+            }]
+        }, {
+            "id": 27,
+            "first_name": "Constantine",
+            "last_name": "Lerven",
+            "email": "clervenq@xrea.com",
+            "gender": "Male",
+            "salary": "$3602.44"
+        }, {
+            "id": 28,
+            "first_name": "Erik",
+            "last_name": "Adao",
+            "email": "eadaor@google.co.uk",
+            "gender": "Male",
+            "salary": "$759.53",
+            "marks": [{
+                    "mark": 1,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 29,
+            "first_name": "Ruthe",
+            "last_name": "Eldrid",
+            "email": "reldrids@nih.gov",
+            "gender": "Female",
+            "salary": "$3452.42",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 6,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 30,
+            "first_name": "Danice",
+            "last_name": "Allchorne",
+            "email": "dallchornet@census.gov",
+            "gender": "Female",
+            "salary": "$3473.35",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 9,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 31,
+            "first_name": "Orson",
+            "last_name": "Gornall",
+            "email": "ogornallu@youku.com",
+            "gender": "Male",
+            "salary": "$2447.34",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                },
+                {
+                    "mark": 8,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                },
+                {
+                    "mark": 3,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 32,
+            "first_name": "Toinette",
+            "last_name": "Patshull",
+            "email": "tpatshullv@flavors.me",
+            "gender": "Female",
+            "salary": "$3815.10",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 33,
+            "first_name": "Alverta",
+            "last_name": "Chalfant",
+            "email": "achalfantw@alexa.com",
+            "gender": "Female",
+            "salary": "$2745.23",
+            "marks": [{
+                    "mark": 4,
+                    "lesson": 1
+                },
+                {
+                    "mark": 6,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 34,
+            "first_name": "Gerianne",
+            "last_name": "Flag",
+            "email": "gflagx@so-net.ne.jp",
+            "gender": "Female",
+            "salary": "$3524.07",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 7,
+                    "lesson": 3
+                },
+                {
+                    "mark": 4,
+                    "lesson": 4
+                },
+                {
+                    "mark": 6,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 35,
+            "first_name": "Lawry",
+            "last_name": "Morigan",
+            "email": "lmorigany@wix.com",
+            "gender": "Male",
+            "salary": "$4177.20",
+            "marks": [{
+                "mark": 8,
+                "lesson": 1
+            }]
+        }, {
+            "id": 36,
+            "first_name": "Noella",
+            "last_name": "Cawsby",
+            "email": "ncawsbyz@infoseek.co.jp",
+            "gender": "Female",
+            "salary": "$2601.54"
+        }, {
+            "id": 37,
+            "first_name": "Abeu",
+            "last_name": "Linacre",
+            "email": "alinacre10@miibeian.gov.cn",
+            "gender": "Male",
+            "salary": "$608.71"
+        }, {
+            "id": 38,
+            "first_name": "Natty",
+            "last_name": "covino",
+            "email": "ncovino11@amazon.co.uk",
+            "gender": "Female",
+            "salary": "$1054.34",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 39,
+            "first_name": "Danika",
+            "last_name": "Legat",
+            "email": "dlegat12@yellowpages.com",
+            "gender": "Female",
+            "salary": "$861.96",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 2,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 40,
+            "first_name": "Elvina",
+            "last_name": "Aleksic",
+            "email": "ealeksic13@time.com",
+            "gender": "Female",
+            "salary": "$1922.85",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 4,
+                    "lesson": 3
+                },
+                {
+                    "mark": 10,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 41,
+            "first_name": "Titus",
+            "last_name": "Petasch",
+            "email": "tpetasch14@ucoz.com",
+            "gender": "Male",
+            "salary": "$2111.42",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                },
+                {
+                    "mark": 3,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                },
+                {
+                    "mark": 5,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 42,
+            "first_name": "Karoly",
+            "last_name": "Ivachyov",
+            "email": "kivachyov15@gmpg.org",
+            "gender": "Male",
+            "salary": "$1344.35",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                },
+                {
+                    "mark": 8,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 43,
+            "first_name": "Niccolo",
+            "last_name": "Drissell",
+            "email": "ndrissell16@amazon.co.jp",
+            "gender": "Male",
+            "salary": "$4690.27",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                },
+                {
+                    "mark": 2,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 44,
+            "first_name": "Ogden",
+            "last_name": "Hinz",
+            "email": "ohinz17@yelp.com",
+            "gender": "Male",
+            "salary": "$1885.76",
+            "marks": [{
+                    "mark": 7,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                },
+                {
+                    "mark": 7,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 45,
+            "first_name": "Janenna",
+            "last_name": "Dye",
+            "email": "jdye18@webs.com",
+            "gender": "Female",
+            "salary": "$1821.86",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                },
+                {
+                    "mark": 2,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                },
+                {
+                    "mark": 2,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 46,
+            "first_name": "Rikki",
+            "last_name": "Ditchburn",
+            "email": "rditchburn19@bigcartel.com",
+            "gender": "Female",
+            "salary": "$404.22",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                },
+                {
+                    "mark": 2,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 47,
+            "first_name": "Lynnet",
+            "last_name": "Kagan",
+            "email": "lkagan1a@macromedia.com",
+            "gender": "Female",
+            "salary": "$4614.66",
+            "marks": [{
+                "mark": 6,
+                "lesson": 1
+            }]
+        }, {
+            "id": 48,
+            "first_name": "Josie",
+            "last_name": "Pesticcio",
+            "email": "jpesticcio1b@discovery.com",
+            "gender": "Female",
+            "salary": "$2484.53",
+            "marks": [{
+                "mark": 4,
+                "lesson": 1
+            }]
+        }, {
+            "id": 49,
+            "first_name": "Morgun",
+            "last_name": "Labrone",
+            "email": "mlabrone1c@facebook.com",
+            "gender": "Male",
+            "salary": "$1092.76",
+            "marks": [{
+                    "mark": 7,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 50,
+            "first_name": "Johnny",
+            "last_name": "Klimt",
+            "email": "jklimt1d@ycombinator.com",
+            "gender": "Male",
+            "salary": "$2520.89",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                },
+                {
+                    "mark": 9,
+                    "lesson": 3
+                },
+                {
+                    "mark": 6,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 51,
+            "first_name": "Massimo",
+            "last_name": "Janecki",
+            "email": "mjanecki1e@wordpress.org",
+            "gender": "Male",
+            "salary": "$4090.94"
+        }, {
+            "id": 52,
+            "first_name": "Dory",
+            "last_name": "Lamacraft",
+            "email": "dlamacraft1f@trellian.com",
+            "gender": "Male",
+            "salary": "$4012.19",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 9,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 53,
+            "first_name": "Kalila",
+            "last_name": "Doorly",
+            "email": "kdoorly1g@businesswire.com",
+            "gender": "Female",
+            "salary": "$4895.90",
+            "marks": [{
+                    "mark": 4,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                },
+                {
+                    "mark": 7,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 54,
+            "first_name": "Ursa",
+            "last_name": "Wardhaw",
+            "email": "uwardhaw1h@usa.gov",
+            "gender": "Female",
+            "salary": "$4321.87",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 55,
+            "first_name": "Lorne",
+            "last_name": "Oneal",
+            "email": "loneal1i@indiegogo.com",
+            "gender": "Male",
+            "salary": "$478.53"
+        }, {
+            "id": 56,
+            "first_name": "Rutger",
+            "last_name": "Moreton",
+            "email": "rmoreton1j@google.com.br",
+            "gender": "Male",
+            "salary": "$906.92",
+            "marks": [{
+                "mark": 1,
+                "lesson": 1
+            }]
+        }, {
+            "id": 57,
+            "first_name": "Wilek",
+            "last_name": "Kapiloff",
+            "email": "wkapiloff1k@hatena.ne.jp",
+            "gender": "Male",
+            "salary": "$2670.70",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 4,
+                    "lesson": 4
+                },
+                {
+                    "mark": 2,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 58,
+            "first_name": "Dorise",
+            "last_name": "MacHoste",
+            "email": "dmachoste1l@abc.net.au",
+            "gender": "Female",
+            "salary": "$4033.75",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 2,
+                    "lesson": 4
+                },
+                {
+                    "mark": 3,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 59,
+            "first_name": "Quintus",
+            "last_name": "Bascomb",
+            "email": "qbascomb1m@mediafire.com",
+            "gender": "Male",
+            "salary": "$4900.92",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 10,
+                    "lesson": 4
+                },
+                {
+                    "mark": 8,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 60,
+            "first_name": "Karoly",
+            "last_name": "Insoll",
+            "email": "kinsoll1n@delicious.com",
+            "gender": "Male",
+            "salary": "$2420.19",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 6,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 61,
+            "first_name": "Lillian",
+            "last_name": "Yetton",
+            "email": "lyetton1o@miibeian.gov.cn",
+            "gender": "Female",
+            "salary": "$4814.56",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 62,
+            "first_name": "Caleb",
+            "last_name": "Heel",
+            "email": "cheel1p@dmoz.org",
+            "gender": "Male",
+            "salary": "$4476.51",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 2,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                },
+                {
+                    "mark": 9,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 63,
+            "first_name": "Alanson",
+            "last_name": "Sturney",
+            "email": "asturney1q@t.co",
+            "gender": "Male",
+            "salary": "$887.98",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 8,
+                    "lesson": 3
+                },
+                {
+                    "mark": 4,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 64,
+            "first_name": "Kingsly",
+            "last_name": "Andreas",
+            "email": "kandreas1r@123-reg.co.uk",
+            "gender": "Male",
+            "salary": "$3352.86",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 6,
+                    "lesson": 2
+                },
+                {
+                    "mark": 7,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 65,
+            "first_name": "Brewster",
+            "last_name": "Hentze",
+            "email": "bhentze1s@java.com",
+            "gender": "Male",
+            "salary": "$4574.75",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 66,
+            "first_name": "Johan",
+            "last_name": "Markova",
+            "email": "jmarkova1t@youtube.com",
+            "gender": "Male",
+            "salary": "$2382.94",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 6,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 67,
+            "first_name": "Nelli",
+            "last_name": "Stoppe",
+            "email": "nstoppe1u@cmu.edu",
+            "gender": "Female",
+            "salary": "$4391.42",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                },
+                {
+                    "mark": 10,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 68,
+            "first_name": "Lyn",
+            "last_name": "Quilty",
+            "email": "lquilty1v@uol.com.br",
+            "gender": "Female",
+            "salary": "$3311.32",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 69,
+            "first_name": "Gayle",
+            "last_name": "Phinnis",
+            "email": "gphinnis1w@quantcast.com",
+            "gender": "Male",
+            "salary": "$1217.91",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 70,
+            "first_name": "Sonni",
+            "last_name": "Stave",
+            "email": "sstave1x@sbwire.com",
+            "gender": "Female",
+            "salary": "$2252.96",
+            "marks": [{
+                    "mark": 9,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 71,
+            "first_name": "Hunfredo",
+            "last_name": "Runcieman",
+            "email": "hruncieman1y@washington.edu",
+            "gender": "Male",
+            "salary": "$1808.54",
+            "marks": [{
+                    "mark": 3,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 4,
+                    "lesson": 3
+                },
+                {
+                    "mark": 1,
+                    "lesson": 4
+                },
+                {
+                    "mark": 3,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 72,
+            "first_name": "Dacia",
+            "last_name": "Greeding",
+            "email": "dgreeding1z@discovery.com",
+            "gender": "Female",
+            "salary": "$4306.39",
+            "marks": [{
+                "mark": 4,
+                "lesson": 1
+            }]
+        }, {
+            "id": 73,
+            "first_name": "Lidia",
+            "last_name": "Micklewicz",
+            "email": "lmicklewicz20@comcast.net",
+            "gender": "Female",
+            "salary": "$4741.58",
+            "marks": [{
+                "mark": 4,
+                "lesson": 1
+            }]
+        }, {
+            "id": 74,
+            "first_name": "Maryjane",
+            "last_name": "Morrish",
+            "email": "mmorrish21@dyndns.org",
+            "gender": "Female",
+            "salary": "$4118.56",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 75,
+            "first_name": "Alexina",
+            "last_name": "Marcu",
+            "email": "amarcu22@marketwatch.com",
+            "gender": "Female",
+            "salary": "$777.38",
+            "marks": [{
+                    "mark": 2,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 5,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 76,
+            "first_name": "Ermengarde",
+            "last_name": "Tosspell",
+            "email": "etosspell23@canalblog.com",
+            "gender": "Female",
+            "salary": "$1431.57",
+            "marks": [{
+                    "mark": 1,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 77,
+            "first_name": "Gerard",
+            "last_name": "Craghead",
+            "email": "gcraghead24@nyu.edu",
+            "gender": "Male",
+            "salary": "$373.11",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 8,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 78,
+            "first_name": "Romain",
+            "last_name": "Kalberer",
+            "email": "rkalberer25@guardian.co.uk",
+            "gender": "Male",
+            "salary": "$3421.07",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 1,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 79,
+            "first_name": "Frannie",
+            "last_name": "Gero",
+            "email": "fgero26@google.it",
+            "gender": "Male",
+            "salary": "$948.85",
+            "marks": [{
+                    "mark": 1,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                },
+                {
+                    "mark": 8,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 80,
+            "first_name": "Brigitta",
+            "last_name": "Eborall",
+            "email": "beborall27@last.fm",
+            "gender": "Female",
+            "salary": "$1589.25",
+            "marks": [{
+                    "mark": 7,
+                    "lesson": 1
+                },
+                {
+                    "mark": 3,
+                    "lesson": 2
+                },
+                {
+                    "mark": 8,
+                    "lesson": 3
+                },
+                {
+                    "mark": 7,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 81,
+            "first_name": "Aimil",
+            "last_name": "Carnachen",
+            "email": "acarnachen28@omniture.com",
+            "gender": "Female",
+            "salary": "$3843.16",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 82,
+            "first_name": "Pearla",
+            "last_name": "Willshere",
+            "email": "pwillshere29@si.edu",
+            "gender": "Female",
+            "salary": "$1007.88",
+            "marks": [{
+                    "mark": 8,
+                    "lesson": 1
+                },
+                {
+                    "mark": 7,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 83,
+            "first_name": "Sandor",
+            "last_name": "Le Marquis",
+            "email": "slemarquis2a@bravesites.com",
+            "gender": "Male",
+            "salary": "$1313.91",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 84,
+            "first_name": "Helyn",
+            "last_name": "De'Ath",
+            "email": "hdeath2b@dedecms.com",
+            "gender": "Female",
+            "salary": "$2451.32",
+            "marks": [{
+                "mark": 8,
+                "lesson": 1
+            }]
+        }, {
+            "id": 85,
+            "first_name": "Kacey",
+            "last_name": "Fochs",
+            "email": "kfochs2c@blinklist.com",
+            "gender": "Female",
+            "salary": "$2341.46",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 1,
+                    "lesson": 2
+                },
+                {
+                    "mark": 6,
+                    "lesson": 3
+                },
+                {
+                    "mark": 10,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 86,
+            "first_name": "Chicky",
+            "last_name": "Stedman",
+            "email": "cstedman2d@posterous.com",
+            "gender": "Male",
+            "salary": "$4698.65"
+        }, {
+            "id": 87,
+            "first_name": "Lucho",
+            "last_name": "Troctor",
+            "email": "ltroctor2e@tiny.cc",
+            "gender": "Male",
+            "salary": "$1604.25",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                }
+            ]
+        }, {
+            "id": 88,
+            "first_name": "Barri",
+            "last_name": "Nornasell",
+            "email": "bnornasell2f@fc2.com",
+            "gender": "Male",
+            "salary": "$2527.89",
+            "marks": [{
+                    "mark": 5,
+                    "lesson": 1
+                },
+                {
+                    "mark": 8,
+                    "lesson": 2
+                },
+                {
+                    "mark": 9,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 89,
+            "first_name": "Millisent",
+            "last_name": "Carty",
+            "email": "mcarty2g@ox.ac.uk",
+            "gender": "Female",
+            "salary": "$4764.65",
+            "marks": [{
+                "mark": 8,
+                "lesson": 1
+            }]
+        }, {
+            "id": 90,
+            "first_name": "Ange",
+            "last_name": "Hauch",
+            "email": "ahauch2h@yellowpages.com",
+            "gender": "Male",
+            "salary": "$3192.86",
+            "marks": [{
+                "mark": 7,
+                "lesson": 1
+            }]
+        }, {
+            "id": 91,
+            "first_name": "Wren",
+            "last_name": "Parvin",
+            "email": "wparvin2i@squidoo.com",
+            "gender": "Female",
+            "salary": "$3819.38",
+            "marks": [{
+                "mark": 6,
+                "lesson": 1
+            }]
+        }, {
+            "id": 92,
+            "first_name": "Dannel",
+            "last_name": "Toler",
+            "email": "dtoler2j@reverbnation.com",
+            "gender": "Male",
+            "salary": "$2554.02",
+            "marks": [{
+                "mark": 9,
+                "lesson": 1
+            }]
+        }, {
+            "id": 93,
+            "first_name": "Harriett",
+            "last_name": "Hewes",
+            "email": "hhewes2k@ed.gov",
+            "gender": "Female",
+            "salary": "$900.10",
+            "marks": [{
+                "mark": 1,
+                "lesson": 1
+            }]
+        }, {
+            "id": 94,
+            "first_name": "Marla",
+            "last_name": "Hillam",
+            "email": "mhillam2l@ifeng.com",
+            "gender": "Female",
+            "salary": "$3543.08",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 5,
+                    "lesson": 2
+                },
+                {
+                    "mark": 4,
+                    "lesson": 3
+                }
+            ]
+        }, {
+            "id": 95,
+            "first_name": "Sarine",
+            "last_name": "Gallo",
+            "email": "sgallo2m@bloglovin.com",
+            "gender": "Female",
+            "salary": "$4910.17",
+            "marks": [{
+                    "mark": 1,
+                    "lesson": 1
+                },
+                {
+                    "mark": 9,
+                    "lesson": 2
+                },
+                {
+                    "mark": 4,
+                    "lesson": 3
+                },
+                {
+                    "mark": 10,
+                    "lesson": 4
+                },
+                {
+                    "mark": 5,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 96,
+            "first_name": "Elnore",
+            "last_name": "Slimon",
+            "email": "eslimon2n@addthis.com",
+            "gender": "Female",
+            "salary": "$2522.95",
+            "marks": [{
+                "mark": 10,
+                "lesson": 1
+            }]
+        }, {
+            "id": 97,
+            "first_name": "Towney",
+            "last_name": "De Freyne",
+            "email": "tdefreyne2o@bloomberg.com",
+            "gender": "Male",
+            "salary": "$1261.78",
+            "marks": [{
+                    "mark": 4,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 3,
+                    "lesson": 3
+                },
+                {
+                    "mark": 10,
+                    "lesson": 4
+                }
+            ]
+        }, {
+            "id": 98,
+            "first_name": "Hal",
+            "last_name": "Pettitt",
+            "email": "hpettitt2p@so-net.ne.jp",
+            "gender": "Male",
+            "salary": "$3042.23",
+            "marks": [{
+                    "mark": 6,
+                    "lesson": 1
+                },
+                {
+                    "mark": 10,
+                    "lesson": 2
+                },
+                {
+                    "mark": 10,
+                    "lesson": 3
+                },
+                {
+                    "mark": 5,
+                    "lesson": 4
+                },
+                {
+                    "mark": 6,
+                    "lesson": 5
+                }
+            ]
+        }, {
+            "id": 99,
+            "first_name": "Aleece",
+            "last_name": "Gadsby",
+            "email": "agadsby2q@discuz.net",
+            "gender": "Female",
+            "salary": "$1377.40"
+        }, {
+            "id": 100,
+            "first_name": "Spencer",
+            "last_name": "Faustin",
+            "email": "sfaustin2r@marketwatch.com",
+            "gender": "Male",
+            "salary": "$672.38",
+            "marks": [{
+                    "mark": 10,
+                    "lesson": 1
+                },
+                {
+                    "mark": 4,
+                    "lesson": 2
+                },
+                {
+                    "mark": 1,
+                    "lesson": 3
+                },
+                {
+                    "mark": 3,
+                    "lesson": 4
+                },
+                {
+                    "mark": 8,
+                    "lesson": 5
+                }
+            ]
+        }];
+
+        // 1. Sort array by property
+
+        function sortBy(array, prop) {
+            return array.sort(function(a, b) {
+                if (a[prop] > b[prop]) {
+                    return 1;
+                }
+                else {
+                    return -1;
+                }
+            });
+        }
+        var property = prompt('Users to be sorted by (property)');
+        console.log('Users sorted by ' + property);
+        console.log(sortBy(users, property));
+
+        // 2. Find max and min sallary
+
+        function findMaxSallary(array) {
+            var sortedBySalaryUsers = array.sort(function(a, b) {
+                var firstVal = parseFloat(a.salary.replace('$', ''));
+                var secondVal = parseFloat(b.salary.replace('$', ''));
+                return secondVal - firstVal;
+            });
+            return sortedBySalaryUsers[0].salary;
+        }
+        console.log('Max salary');
+        console.log(findMaxSallary(users));
+
+        function findMinSallary(array) {
+            var sortedBySalaryUsers = array.sort(function(a, b) {
+                var firstVal = parseFloat(a.salary.replace('$', ''));
+                var secondVal = parseFloat(b.salary.replace('$', ''));
+                return firstVal - secondVal;
+            });
+            return sortedBySalaryUsers[0].salary;
+        }
+        console.log('Min salary');
+        console.log(findMinSallary(users));
+
+        // 3. Find sum of all users sallaties
+
+        function findSumSallary(array) {
+            var salaries = array.map(function(element) {
+                return parseFloat(element.salary.replace('$', ''));
+            });
+            var sum = 0;
+            for (var i = 0; i < salaries.length; i++) {
+                sum = salaries[i] + sum;
+            }
+            return '$' + sum.toFixed(2);
+        }
+        console.log('Sum of all users sallaries');
+        console.log(findSumSallary(users));
+
+        // 4. sort users by marks
+
+        function sortByMarks(array) {
+            // your code here
+        }
+    </script>
+</body>
+
+</html>
